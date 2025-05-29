@@ -1,0 +1,158 @@
+body * {
+  box-sizing: border-box;
+}
+
+html, body {
+font-family: 'Roboto', sans-serif;
+color: white;
+padding: 0;
+margin: 0;
+}
+
+body {
+background: url('github-images/gym-background-1.jpg');
+background-size: cover;
+height: 100vh;
+}
+
+header {
+position: absolute;
+top: 0;
+width: 100%;
+height: 75px;
+background: black;
+text-align: center;
+}
+
+main {
+width: 95%;
+background: rgba(0,0,0,.8);
+margin: 150px auto 0;
+padding: 25px;
+text-align: center;
+border-radius: 5px;
+}
+
+.question-container {
+display: flex;
+justify-content: center;
+width: 95%;
+background: rgba(0,0,0,.8);
+margin: 15px auto 0;
+padding: 25px;
+text-align: center;
+border-radius: 5px;
+}
+
+.question-legend {
+font-size: 2em;
+}
+
+.start {
+margin: 5% auto;
+}
+
+.question-submit {
+margin: 5% auto;
+}
+
+form {
+text-align: center;
+}
+
+fieldset {
+border: 0;
+}
+
+form input {
+display: block;
+border-radius: 20px;
+}
+
+.next-question input {
+border-radius: 20px;
+margin: 2% auto;
+}
+
+.final-question input {
+border-radius: 20px;
+margin: 2% auto;
+}
+
+.restart-quiz input {
+border-radius: 20px;
+margin: 2% auto;
+}
+
+.question-input {
+display: none;
+}
+
+label {
+cursor: pointer;
+display: block;
+width: 100%;
+background: grey;
+color: white;
+border: 1px solid white;
+}
+
+label:hover {
+background: rgba(255, 0, 0, 0.534);
+}
+
+input[type=radio]:checked + label{
+background: blue;
+}
+
+footer {
+  margin-top: 50px;
+  margin-bottom: 15px;
+  border: 0px;
+  width: 95%;
+  background: black;
+  opacity: .85;
+  margin: 15px auto 0;
+  padding: 25px;
+  border-radius: 5px;
+}
+
+section.contact {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+section.contact ul {
+  font-size: 150%;
+}
+
+section.contact ul.contact-list li {
+  list-style-type: none;
+  display: inline-block;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 120%;
+}
+
+footer h4 {
+  display: block;
+  text-align: center;
+  font-weight: bold;
+  /* color: #163a8b; */
+}
+
+footer a {
+  color: white;
+}
+
+footer a i.far {
+  display: block;
+  position: fixed;
+  bottom: 30px;
+  right: 50px;
+  /* color: #163a8b; */
+}
+
+footer a:hover i {
+  color: #8C9191;
+}
