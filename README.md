@@ -3,7 +3,7 @@ A series of multiple choice questions centered around working out. The score and
 
 
 ### Working Prototype 
-You can access a working prototype here: https://evanpoe.github.io/Quiz-App/
+You can access a working prototype here: https://quiz-app-rho-tawny.vercel.app/
 
 
 ### User Stories 
